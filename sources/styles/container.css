@@ -1,0 +1,117 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #e9eaed;
+  color: #776e65;
+  font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+  font-size: 18px; }
+
+body {
+  margin: 5px 0; }
+
+.heading:after {
+  content: "";
+  display: block;
+  clear: both; }
+
+h1.title {
+  font-size: 80px;
+  font-weight: bold;
+  margin: 0;
+  display: block;
+  float: left; }
+
+.scores-container {
+  float: right;
+  text-align: right; }
+
+p {
+  margin-top: 0;
+  margin-bottom: 10px;
+  line-height: 1.65; }
+
+a {
+  color: #776e65;
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer; }
+
+strong.important {
+  text-transform: uppercase; }
+
+hr {
+  border: none;
+  border-bottom: 1px solid #d8d4d0;
+  margin-top: 20px;
+  margin-bottom: 30px; }
+
+.container {
+  width: 69%;
+  margin: 0 auto; }
+
+.container:after {
+    padding-top: 56.25%;
+}
+
+.game-container {
+  margin-top: 40px;
+  position: relative;
+  cursor: default;
+  touch-action: none;
+  background: #bbada0;
+  border-radius: 6px;
+  width: 69vw;
+  height: 38.8vw;
+  box-sizing: border-box; 
+}
+
+.game-container:after {
+    padding-top: 56.25%;
+}
+.container .demo-start{
+    width: 69vw;
+    height: 38.8vw;
+}
+
+.donate_button{
+    width: 163px;
+    height: 35px;
+    color: #776e65;
+    font-size: 15pt;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+td{
+    vertical-align:central;
+}
+.container .demo-2{
+    width: 0%;
+    height: 0%;
+}
+
+.above-game:after {
+  content: "";
+  display: block;
+  clear: both; }
+
+.game-intro {
+  float: left;
+  line-height: 42px;
+  margin-bottom: 0; }
+
+.restart-button {
+  display: inline-block;
+  background: #8f7a66;
+  border-radius: 3px;
+  padding: 0 20px;
+  text-decoration: none;
+  color: #f9f6f2;
+  height: 40px;
+  line-height: 42px;
+  display: block;
+  text-align: center;
+  float: right; }
+
+.game-explanation {
+  margin-top: 50px; }
