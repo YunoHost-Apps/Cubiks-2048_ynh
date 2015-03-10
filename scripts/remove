@@ -1,6 +1,0 @@
-#!/bin/bash
-
-domain=$(sudo yunohost app setting cubiks2048 domain)
-
-sudo rm -rf /var/www/cubiks2048
-sudo rm -f /etc/nginx/conf.d/$domain.d/cubiks2048.conf
