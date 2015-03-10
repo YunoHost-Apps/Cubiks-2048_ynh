@@ -1,0 +1,43 @@
+{
+    "name": "Cubiks-2048",
+    "id": "cubiks2048",
+    "description": {
+        "en": "2048 game clone in 3D",
+        "fr": "Clone du jeu 2048 en 3D"
+    },
+    "developer": {
+        "name": "Moul",
+        "email": "moul@moul.re"
+    },
+    "multi_instance": "false",
+    "arguments": {
+        "install" : [
+            {
+                "name": "domain",
+                "ask": {
+                    "en": "Choose a domain for Cubiks-2048",
+                    "fr": "Choisissez un nom de domaine pour Cubiks-2048"
+                },
+                "example": "domain.org"
+            },
+            {
+                "name": "path",
+                "ask": {
+                    "en": "Choose a path for Cubiks-2048",
+                    "fr": "Choisissez un chemin pour Cubiks-2048"
+                },
+                "example": "/cubiks2048",
+                "default": "/cubiks2048"
+            },
+            {
+                "name": "is_public",
+                "ask": {
+                    "en": "Is it a public game?",
+                    "fr": "Est-ce un jeu public ?"
+                },
+                "choices": ["Yes", "No"],
+                "default": "Yes"
+            }
+        ]
+    }
+}
