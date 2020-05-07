@@ -1,0 +1,6 @@
+SOURCE_URL=https://github.com/Kshitij-Banerjee/Cubiks-2048/archive/master.tar.gz
+SOURCE_SUM=8b45de903449a9b47202cc28d9b20091cab9283634cd655d3fb7b8a65aaf2e91
+SOURCE_SUM_PRG=sha256sum
+SOURCE_FORMAT=tar.gz
+SOURCE_IN_SUBDIR=true
+SOURCE_FILENAME=Cubiks-2048-master.tar.gz
