@@ -9,7 +9,7 @@
      "version": "1.0~ynh1",
     "url": "https://github.com/Kshitij-Banerjee/Cubiks-2048/",
     "license": "MIT",
-    "developer": {
+    "maintainer": {
         "name": "Moul",
         "email": "moul@moul.re"
     },
