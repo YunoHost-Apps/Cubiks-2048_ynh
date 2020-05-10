@@ -1,7 +1,7 @@
 # Cubiks-2048 pour YunoHost
 
 [![Integration level](https://dash.yunohost.org/integration/cubiks2048.svg)](https://dash.yunohost.org/appci/app/cubiks2048) ![](https://ci-apps.yunohost.org/ci/badges/cubiks2048.status.svg)  
-![](https://ci-apps.yunohost.org/ci/badges/cubiks2048.maintain.svg)
+![Installer Cubiks-2048 avec YunoHost](https://ci-apps.yunohost.org/ci/badges/cubiks2048.maintain.svg)
 
 *[Read this readme in english.](./README.md)* 
 
