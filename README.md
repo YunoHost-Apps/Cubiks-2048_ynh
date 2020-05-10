@@ -1,17 +1,20 @@
-# Cubiks-2048 game
+# Cubiks-2048 for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/cubiks2048.svg)](https://dash.yunohost.org/appci/app/cubiks2048) ![](https://ci-apps.yunohost.org/ci/badges/cubiks2048.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/cubiks2048.maintain.svg)
+[![Integration level](https://dash.yunohost.org/integration/cubiks2048.svg)](https://dash.yunohost.org/appci/app/cubiks2048) ![](https://ci-apps.yunohost.org/ci/badges/cubiks2048.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/cubiks2048.maintain.svg)  
+[![Install Cubiks-2048 with YunoHost](https://install-app.yunohost.org/install-with-yunohost.png)](https://install-app.yunohost.org/?app=cubiks2048)
 
-> *This package allow you to install Cubiks-2048 quickly and simply on a YunoHost server.  
+*[Lire ce readme en français.](./README_fr.md)*
+
+> *This package allow you to install Cubiks-2048 quickly and simply on a YunoHost server. 
 If you don’t have YunoHost, please see [here](https://yunohost.org/#/install) to know how to install and enjoy it.*
 
 ## Overview
 
-A clone of 2048 game in 3D
+Clone of 2048 game in 3D
 
 ## Screenshots
 
-![](Screenshot-243.jpg)
+![](Screenshot-Cubiks-2048.jpg)
 
 ## Demo
 
