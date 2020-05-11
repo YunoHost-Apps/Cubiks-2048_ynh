@@ -10,8 +10,8 @@
     "url": "https://github.com/Kshitij-Banerjee/Cubiks-2048/",
     "license": "MIT",
     "maintainer": {
-        "name": "Moul",
-        "email": "moul@moul.re"
+        "name": "eric_G",
+        "email": "ericgaspar@free.fr"
     },
     "requirements": {
         "yunohost": ">= 3.7.0"
