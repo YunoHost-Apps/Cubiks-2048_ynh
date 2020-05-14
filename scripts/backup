@@ -6,7 +6,15 @@
 # IMPORT GENERIC HELPERS
 #=================================================
 
+#Keep this path for calling _common.sh inside the execution's context of backup and restore scripts
 source /usr/share/yunohost/helpers
+
+#=================================================
+# MANAGE SCRIPT FAILURE
+#=================================================
+
+# Exit if an error occurs during the execution of the script
+ynh_abort_if_errors
 
 #=================================================
 # LOAD SETTINGS
@@ -15,29 +23,25 @@ ynh_script_progression --message="Loading installation settings..." --weight=1
 
 app=$YNH_APP_INSTANCE_NAME
 
-domain=$(ynh_app_setting_get --app=$app --key=domain)
 final_path=$(ynh_app_setting_get --app=$app --key=final_path)
+domain=$(ynh_app_setting_get --app=$app --key=domain)
 
 #=================================================
-# STANDARD REMOVE
+# BACKUP THE APP MAIN DIR
 #=================================================
-# REMOVE APP MAIN DIR
-#=================================================
-ynh_script_progression --message="Removing app main directory..." --weight=3
+ynh_script_progression --message="Backing up the main app directory..." --weight=1
 
-# Remove the app directory securely
-ynh_secure_remove --file="$final_path"
+ynh_backup --src_path="$final_path"
 
 #=================================================
-# REMOVE NGINX CONFIGURATION
+# BACKUP THE NGINX CONFIGURATION
 #=================================================
-ynh_script_progression --message="Removing Nginx web server configuration..." --weight=1
+ynh_script_progression --message="Backing up Nginx web server configuration..." --weight=2
 
-# Remove the dedicated nginx config
-ynh_remove_nginx_config
+ynh_backup --src_path="/etc/nginx/conf.d/$domain.d/$app.conf"
 
 #=================================================
 # END OF SCRIPT
 #=================================================
 
-ynh_script_progression --message="Removal of $app completed" --last
+ynh_script_progression --message="Backup script completed for $app. (YunoHost will then actually copy those files to the archive)." --last
