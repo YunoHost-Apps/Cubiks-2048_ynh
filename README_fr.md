@@ -30,3 +30,17 @@ Clone en 3D du jeu 2048.
  * Signaler un bug : https://github.com/YunoHost-Apps/cubiks-2048_ynh/issues
  * Dépôt de l’application principale : https://github.com/Kshitij-Banerjee/Cubiks-2048
  * Site web YunoHost : https://yunohost.org/
+
+---
+
+Informations pour les développeurs
+----------------
+
+Merci de faire vos pull request sur la [branche testing](https://github.com/YunoHost-Apps/cubiks2048_ynh/tree/testing).
+
+Pour essayer la branche testing, procédez comme suit.
+```
+sudo yunohost app install https://github.com/YunoHost-Apps/cubiks2048_ynh/tree/testing --debug
+ou
+sudo yunohost app upgrade cubiks2048 -u https://github.com/YunoHost-Apps/cubiks2048_ynh/tree/testing --debug
+```
