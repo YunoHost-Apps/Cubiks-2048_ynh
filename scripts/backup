@@ -19,7 +19,7 @@ ynh_abort_if_errors
 #=================================================
 # LOAD SETTINGS
 #=================================================
-ynh_script_progression --message="Loading installation settings..." --weight=1
+ynh_print_info --message="Backing up Cubiks-2048..."
 
 app=$YNH_APP_INSTANCE_NAME
 
@@ -29,14 +29,12 @@ domain=$(ynh_app_setting_get --app=$app --key=domain)
 #=================================================
 # BACKUP THE APP MAIN DIR
 #=================================================
-ynh_script_progression --message="Backing up the main app directory..." --weight=1
 
 ynh_backup --src_path="$final_path"
 
 #=================================================
 # BACKUP THE NGINX CONFIGURATION
 #=================================================
-ynh_script_progression --message="Backing up Nginx web server configuration..." --weight=2
 
 ynh_backup --src_path="/etc/nginx/conf.d/$domain.d/$app.conf"
 
@@ -44,4 +42,4 @@ ynh_backup --src_path="/etc/nginx/conf.d/$domain.d/$app.conf"
 # END OF SCRIPT
 #=================================================
 
-ynh_script_progression --message="Backup script completed for $app. (YunoHost will then actually copy those files to the archive)." --last
+ynh_print_info --message="Backup script completed for $app. (YunoHost will then actually copy those files to the archive)."
