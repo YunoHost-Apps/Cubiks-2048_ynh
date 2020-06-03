@@ -22,12 +22,12 @@ Clone of 2048 game in 3D
 
 #### Supported architectures
 
-* x86-64b - [![Build Status](https://ci-apps.yunohost.org/ci/logs/cubiks-2048%20%28Apps%29.svg)](https://ci-apps.yunohost.org/ci/apps/cubiks-2048/)
+* x86-64 - [![Build Status](https://ci-apps.yunohost.org/ci/logs/cubiks-2048%20%28Apps%29.svg)](https://ci-apps.yunohost.org/ci/apps/cubiks-2048/)
 * ARMv8-A - [![Build Status](https://ci-apps-arm.yunohost.org/ci/logs/cubiks-2048%20%28Apps%29.svg)](https://ci-apps-arm.yunohost.org/ci/apps/cubiks-2048/)
 
 ## Links
 
- * Report a bug: https://github.com/YunoHost-Apps/cubiks-2048_ynh/issues
+ * Report a bug: https://github.com/YunoHost-Apps/Cubiks-2048_ynh/issues
  * Upstream app repository: https://github.com/Kshitij-Banerjee/Cubiks-2048
  * YunoHost website: https://yunohost.org/
 
@@ -36,11 +36,11 @@ Clone of 2048 game in 3D
 Developers info
 ----------------
 
-Please do your pull request to the [testing branch](https://github.com/YunoHost-Apps/cubiks2048_ynh/tree/testing).
+Please do your pull request to the [testing branch](https://github.com/YunoHost-Apps/Cubiks-2048_ynh/tree/testing).
 
 To try the testing branch, please proceed like that.
 ```
-sudo yunohost app install https://github.com/YunoHost-Apps/cubiks-2048_ynh/tree/testing --debug
+sudo yunohost app install https://github.com/YunoHost-Apps/Cubiks-2048_ynh/tree/testing --debug
 or
-sudo yunohost app upgrade cubiks-2048 -u https://github.com/YunoHost-Apps/cubiks-2048_ynh/tree/testing --debug
+sudo yunohost app upgrade cubiks-2048 -u https://github.com/YunoHost-Apps/Cubiks-2048_ynh/tree/testing --debug
 ```
