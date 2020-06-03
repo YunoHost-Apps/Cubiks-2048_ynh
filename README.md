@@ -1,7 +1,7 @@
 # Cubiks-2048 for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/cubiks2048.svg)](https://dash.yunohost.org/appci/app/cubiks2048) ![](https://ci-apps.yunohost.org/ci/badges/cubiks2048.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/cubiks2048.maintain.svg)  
-[![Install Cubiks-2048 with YunoHost](https://install-app.yunohost.org/install-with-yunohost.png)](https://install-app.yunohost.org/?app=cubiks2048)
+[![Integration level](https://dash.yunohost.org/integration/cubiks-2048.svg)](https://dash.yunohost.org/appci/app/cubiks-2048) ![](https://ci-apps.yunohost.org/ci/badges/cubiks-2048.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/cubiks-2048.maintain.svg)  
+[![Install Cubiks-2048 with YunoHost](https://install-app.yunohost.org/install-with-yunohost.png)](https://install-app.yunohost.org/?app=cubiks-2048)
 
 *[Lire ce readme en français.](./README_fr.md)*
 
@@ -22,8 +22,8 @@ Clone of 2048 game in 3D
 
 #### Supported architectures
 
-* x86-64b - [![Build Status](https://ci-apps.yunohost.org/ci/logs/cubiks2048%20%28Apps%29.svg)](https://ci-apps.yunohost.org/ci/apps/cubiks2048/)
-* ARMv8-A - [![Build Status](https://ci-apps-arm.yunohost.org/ci/logs/cubiks2048%20%28Apps%29.svg)](https://ci-apps-arm.yunohost.org/ci/apps/cubiks2048/)
+* x86-64b - [![Build Status](https://ci-apps.yunohost.org/ci/logs/cubiks-2048%20%28Apps%29.svg)](https://ci-apps.yunohost.org/ci/apps/cubiks-2048/)
+* ARMv8-A - [![Build Status](https://ci-apps-arm.yunohost.org/ci/logs/cubiks-2048%20%28Apps%29.svg)](https://ci-apps-arm.yunohost.org/ci/apps/cubiks-2048/)
 
 ## Links
 
@@ -40,7 +40,7 @@ Please do your pull request to the [testing branch](https://github.com/YunoHost-
 
 To try the testing branch, please proceed like that.
 ```
-sudo yunohost app install https://github.com/YunoHost-Apps/cubiks2048_ynh/tree/testing --debug
+sudo yunohost app install https://github.com/YunoHost-Apps/cubiks-2048_ynh/tree/testing --debug
 or
-sudo yunohost app upgrade cubiks2048 -u https://github.com/YunoHost-Apps/cubiks2048_ynh/tree/testing --debug
+sudo yunohost app upgrade cubiks-2048 -u https://github.com/YunoHost-Apps/cubiks-2048_ynh/tree/testing --debug
 ```
