@@ -1,6 +1,6 @@
 {
     "name": "Cubiks-2048",
-    "id": "cubiks2048",
+    "id": "cubiks-2048",
     "packaging_format": 1,
     "description": {
         "en": "2048 game clone in 3D",
