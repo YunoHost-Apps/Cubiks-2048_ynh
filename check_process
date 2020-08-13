@@ -2,8 +2,8 @@
 	auto_remove=1
 	; Manifest
 		domain="domain.tld"	(DOMAIN)
-		path="/path"	(PATH)
-		is_public="Yes"	(PUBLIC|public=Yes|private=No)
+		path="/path"	    (PATH)
+		is_public="Yes"	    (PUBLIC|public=Yes|private=No)
 	; Checks
 		pkg_linter=1
 		setup_sub_dir=1

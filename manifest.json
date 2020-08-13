@@ -26,8 +26,8 @@
                 "name": "domain",
                 "type": "domain",
                 "ask": {
-                    "en": "Choose a domain for Cubiks-2048",
-                    "fr": "Choisissez un nom de domaine pour Cubiks-2048"
+                    "en": "Choose a domain for Cubiks 2048",
+                    "fr": "Choisissez un nom de domaine pour Cubiks 2048"
                 },
                 "example": "domain.org"
             },
@@ -35,11 +35,11 @@
                 "name": "path",
                 "type": "path",
                 "ask": {
-                    "en": "Choose a path for Cubiks-2048",
-                    "fr": "Choisissez un chemin pour Cubiks-2048"
+                    "en": "Choose a path for Cubiks 2048",
+                    "fr": "Choisissez un chemin pour Cubiks 2048"
                 },
-                "example": "/cubiks2048",
-                "default": "/cubiks2048"
+                "example": "/cubiks-2048",
+                "default": "/cubiks-2048"
             },
             {
                 "name": "is_public",
@@ -49,8 +49,8 @@
                     "fr": "Est-ce un jeu public ?"
                 },
                 "help": {
-                        "en": "If enabled, Cubiks-2048 will be accessible by people who doesn’t have an account. This can be changed later via the webadmin.",
-                        "fr": "Si cette case est cochée, Cubiks-2048 sera accessible aux personnes n’ayant pas de compte. Vous pourrez changer ceci plus tard via la webadmin."
+                        "en": "If enabled, Cubiks 2048 will be accessible by people who doesn’t have an account. This can be changed later via the webadmin.",
+                        "fr": "Si cette case est cochée, Cubiks 2048 sera accessible aux personnes n’ayant pas de compte. Vous pourrez changer ceci plus tard via la webadmin."
                 },
                 "default": true
             }

@@ -1,4 +1,4 @@
-# Cubiks-2048 pour YunoHost
+# Cubiks 2048 pour YunoHost
 
 [![Integration level](https://dash.yunohost.org/integration/cubiks2048.svg)](https://dash.yunohost.org/appci/app/cubiks2048) ![](https://ci-apps.yunohost.org/ci/badges/cubiks-2048.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/cubiks-2048.maintain.svg)  
 [![Installer Cubiks-2048 avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.png)](https://install-app.yunohost.org/?app=cubiks-2048)
@@ -33,8 +33,7 @@ Clone en 3D du jeu 2048.
 
 ---
 
-Informations pour les développeurs
-----------------
+## Informations pour les développeurs
 
 Merci de faire vos pull request sur la [branche testing](https://github.com/YunoHost-Apps/Cubiks-2048_ynh/tree/testing).
 
