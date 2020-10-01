@@ -24,7 +24,6 @@ Clone of 2048 game in 3D
 
 * x86-64 - [![Build Status](https://ci-apps.yunohost.org/ci/logs/cubiks-2048%20%28Apps%29.svg)](https://ci-apps.yunohost.org/ci/apps/cubiks-2048/)
 * ARMv8-A - [![Build Status](https://ci-apps-arm.yunohost.org/ci/logs/cubiks-2048%20%28Apps%29.svg)](https://ci-apps-arm.yunohost.org/ci/apps/cubiks-2048/)
-* Buster x86-64 - [![](https://ci-buster.nohost.me/ci/logs/cubiks-2048%20%28Apps%29.svg)](https://ci-buster.nohost.me/ci/apps/cubiks-2048/)
 
 ## Links
 
@@ -34,8 +33,7 @@ Clone of 2048 game in 3D
 
 ---
 
-Developers info
-----------------
+## Developers info
 
 Please do your pull request to the [testing branch](https://github.com/YunoHost-Apps/Cubiks-2048_ynh/tree/testing).
 
