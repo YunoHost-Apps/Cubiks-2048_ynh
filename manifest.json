@@ -6,7 +6,7 @@
         "en": "2048 game clone in 3D",
         "fr": "Clone du jeu 2048 en 3D"
     },
-     "version": "1.0~ynh2",
+     "version": "1.0~ynh3",
     "url": "https://github.com/Kshitij-Banerjee/Cubiks-2048/",
     "license": "MIT",
     "maintainer": {
@@ -14,7 +14,7 @@
         "email": "ericgaspar@free.fr"
     },
     "requirements": {
-        "yunohost": ">= 3.7.0"
+        "yunohost": ">= 4.0.0"
     },
     "multi_instance": true,
     "services": [
