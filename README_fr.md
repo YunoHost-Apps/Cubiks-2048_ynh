@@ -1,11 +1,11 @@
 # Cubiks 2048 pour YunoHost
 
 [![Integration level](https://dash.yunohost.org/integration/cubiks-2048.svg)](https://dash.yunohost.org/appci/app/cubiks-2048) ![](https://ci-apps.yunohost.org/ci/badges/cubiks-2048.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/cubiks-2048.maintain.svg)  
-[![Installer Cubiks-2048 avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=cubiks-2048)
+[![Installer Cubiks 2048 avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=cubiks-2048)
 
 *[Read this readme in english.](./README.md)* 
 
-> *This package allow you to install Cubiks-2048 quickly and simply on a YunoHost server.
+> *This package allow you to install Cubiks 2048 quickly and simply on a YunoHost server.
 If you don’t have YunoHost, please see [here](https://yunohost.org/#/install) to know how to install and enjoy it.*
 
 ## Vue d’ensemble
