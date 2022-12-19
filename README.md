@@ -17,7 +17,7 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 Create the number 2048. Cubes with same number merge!
 
-**Shipped version:** 1.0~ynh5
+**Shipped version:** 1.0~ynh6
 
 **Demo:** https://kshitij-banerjee.github.io/Cubiks-2048/
 
