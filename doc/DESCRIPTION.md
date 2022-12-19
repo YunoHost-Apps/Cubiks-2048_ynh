@@ -1,0 +1,1 @@
+Create the number 2048. Cubes with same number merge!

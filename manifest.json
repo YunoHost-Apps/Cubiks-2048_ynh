@@ -8,6 +8,12 @@
     },
      "version": "1.0~ynh5",
     "url": "https://github.com/Kshitij-Banerjee/Cubiks-2048/",
+    "upstream": {
+        "license": "MIT",
+        "website": "https://kshitij-banerjee.github.io/Cubiks-2048/",
+        "demo": "https://kshitij-banerjee.github.io/Cubiks-2048/",
+        "code": "https://github.com/Kshitij-Banerjee/Cubiks-2048/"
+    },
     "license": "MIT",
     "maintainer": {
         "name": "eric_G",
