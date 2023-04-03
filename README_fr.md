@@ -5,15 +5,16 @@ It shall NOT be edited by hand.
 
 # Cubiks 2048 pour YunoHost
 
-[![Niveau d'intégration](https://dash.yunohost.org/integration/cubiks-2048.svg)](https://dash.yunohost.org/appci/app/cubiks-2048) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/cubiks-2048.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/cubiks-2048.maintain.svg)  
+[![Niveau d’intégration](https://dash.yunohost.org/integration/cubiks-2048.svg)](https://dash.yunohost.org/appci/app/cubiks-2048) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/cubiks-2048.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/cubiks-2048.maintain.svg)
+
 [![Installer Cubiks 2048 avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=cubiks-2048)
 
 *[Read this readme in english.](./README.md)*
 
-> *Ce package vous permet d'installer Cubiks 2048 rapidement et simplement sur un serveur YunoHost.
-Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l'installer et en profiter.*
+> *Ce package vous permet d’installer Cubiks 2048 rapidement et simplement sur un serveur YunoHost.
+Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l’installer et en profiter.*
 
-## Vue d'ensemble
+## Vue d’ensemble
 
 Create the number 2048. Cubes with same number merge!
 
@@ -21,9 +22,9 @@ Create the number 2048. Cubes with same number merge!
 
 **Démo :** https://kshitij-banerjee.github.io/Cubiks-2048/
 
-## Captures d'écran
+## Captures d’écran
 
-![Capture d'écran de Cubiks 2048](./doc/screenshots/Screenshot-Cubiks-2048.jpg)
+![Capture d’écran de Cubiks 2048](./doc/screenshots/Screenshot-Cubiks-2048.jpg)
 
 ## :red_circle: Fonctions indésirables
 
@@ -31,8 +32,8 @@ Create the number 2048. Cubes with same number merge!
 
 ## Documentations et ressources
 
-* Site officiel de l'app : <https://kshitij-banerjee.github.io/Cubiks-2048/>
-* Dépôt de code officiel de l'app : <https://github.com/Kshitij-Banerjee/Cubiks-2048/>
+* Site officiel de l’app : <https://kshitij-banerjee.github.io/Cubiks-2048/>
+* Dépôt de code officiel de l’app : <https://github.com/Kshitij-Banerjee/Cubiks-2048/>
 * Documentation YunoHost pour cette app : <https://yunohost.org/app_cubiks-2048>
 * Signaler un bug : <https://github.com/YunoHost-Apps/cubiks-2048_ynh/issues>
 
@@ -48,4 +49,4 @@ ou
 sudo yunohost app upgrade cubiks-2048 -u https://github.com/YunoHost-Apps/cubiks-2048_ynh/tree/testing --debug
 ```
 
-**Plus d'infos sur le packaging d'applications :** <https://yunohost.org/packaging_apps>
+**Plus d’infos sur le packaging d’applications :** <https://yunohost.org/packaging_apps>
