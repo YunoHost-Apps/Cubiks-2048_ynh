@@ -14,7 +14,7 @@ It shall NOT be edited by hand.
 > *Ce package vous permet d’installer Cubiks 2048 rapidement et simplement sur un serveur YunoHost.
 Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l’installer et en profiter.*
 
-## Vue d'ensemble
+## Vue d’ensemble
 
 Create the number 2048. Cubes with same number merge!
 
@@ -22,7 +22,7 @@ Create the number 2048. Cubes with same number merge!
 
 **Démo :** https://kshitij-banerjee.github.io/Cubiks-2048/
 
-**Version incluse :** 1.0~ynh6
+## Captures d’écran
 
 ![Capture d’écran de Cubiks 2048](./doc/screenshots/Screenshot-Cubiks-2048.jpg)
 
