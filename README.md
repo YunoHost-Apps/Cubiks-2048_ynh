@@ -5,7 +5,8 @@ It shall NOT be edited by hand.
 
 # Cubiks 2048 for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/cubiks-2048.svg)](https://dash.yunohost.org/appci/app/cubiks-2048) ![Working status](https://ci-apps.yunohost.org/ci/badges/cubiks-2048.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/cubiks-2048.maintain.svg)  
+[![Integration level](https://dash.yunohost.org/integration/cubiks-2048.svg)](https://dash.yunohost.org/appci/app/cubiks-2048) ![Working status](https://ci-apps.yunohost.org/ci/badges/cubiks-2048.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/cubiks-2048.maintain.svg)
+
 [![Install Cubiks 2048 with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=cubiks-2048)
 
 *[Lire ce readme en français.](./README_fr.md)*

@@ -1,0 +1,52 @@
+packaging_format = 2
+
+id = "cubiks-2048"
+name = "Cubiks 2048"
+description.en = "2048 game clone in 3D"
+description.fr = "Clone du jeu 2048 en 3D"
+
+version = "1.0~ynh6"
+
+maintainers = ["eric_G"]
+
+[upstream]
+license = "MIT"
+website = "https://kshitij-banerjee.github.io/Cubiks-2048/"
+demo = "https://kshitij-banerjee.github.io/Cubiks-2048/"
+code = "https://github.com/Kshitij-Banerjee/Cubiks-2048/"
+
+[integration]
+yunohost = ">= 11.1.16"
+architectures = "all"
+multi_instance = true
+ldap = false
+sso = true
+disk = "50M"
+ram.build = "50M"
+ram.runtime = "50M"
+
+[install]
+    [install.domain]
+    type = "domain"
+
+    [install.path]
+    type = "path"
+    default = "/cubiks-2048"
+
+    [install.init_main_permission]
+    help.en = "If enabled, Cubiks 2048 will be accessible by people who doesn’t have an account. This can be changed later via the webadmin."
+    help.fr = "Si cette case est cochée, Cubiks 2048 sera accessible aux personnes n’ayant pas de compte. Vous pourrez changer ceci plus tard via la webadmin."
+    type = "group"
+    default = "visitors"
+
+[resources]
+        [resources.sources.main]
+        url = "https://github.com/Kshitij-Banerjee/Cubiks-2048/archive/master.tar.gz"
+        sha256 = "8b45de903449a9b47202cc28d9b20091cab9283634cd655d3fb7b8a65aaf2e91"
+
+    [resources.system_user]
+
+    [resources.install_dir]
+
+    [resources.permissions]
+    main.url = "/"
