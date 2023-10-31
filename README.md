@@ -34,7 +34,7 @@ Create the number 2048. Cubes with same number merge!
 
 * Official app website: <https://kshitij-banerjee.github.io/Cubiks-2048/>
 * Upstream app code repository: <https://github.com/Kshitij-Banerjee/Cubiks-2048/>
-* YunoHost documentation for this app: <https://yunohost.org/app_cubiks-2048>
+* YunoHost Store: <https://apps.yunohost.org/app/cubiks-2048>
 * Report a bug: <https://github.com/YunoHost-Apps/cubiks-2048_ynh/issues>
 
 ## Developer info
