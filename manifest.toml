@@ -43,6 +43,7 @@ ram.runtime = "50M"
         [resources.sources.main]
         url = "https://github.com/Kshitij-Banerjee/Cubiks-2048/archive/master.tar.gz"
         sha256 = "8b45de903449a9b47202cc28d9b20091cab9283634cd655d3fb7b8a65aaf2e91"
+        autoupdate.strategy = "latest_github_commit"
 
     [resources.system_user]
 
