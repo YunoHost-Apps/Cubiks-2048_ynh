@@ -5,7 +5,7 @@ name = "Cubiks 2048"
 description.en = "2048 game clone in 3D"
 description.fr = "Clone du jeu 2048 en 3D"
 
-version = "1.0~ynh6"
+version = "2014.06.07~ynh1"
 
 maintainers = []
 
@@ -41,8 +41,8 @@ ram.runtime = "50M"
 
 [resources]
         [resources.sources.main]
-        url = "https://github.com/Kshitij-Banerjee/Cubiks-2048/archive/master.tar.gz"
-        sha256 = "8b45de903449a9b47202cc28d9b20091cab9283634cd655d3fb7b8a65aaf2e91"
+        url = "https://github.com/Kshitij-Banerjee/Cubiks-2048/archive/df2369883cc1a6af96370758c91196ddd593fd8c.tar.gz"
+        sha256 = "1dbc1f1fc317b35d72b591caeb2abb3da7892545e34a385a9c45c45bae04e53a"
         autoupdate.strategy = "latest_github_commit"
 
     [resources.system_user]
