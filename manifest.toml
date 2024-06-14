@@ -16,7 +16,7 @@ demo = "https://kshitij-banerjee.github.io/Cubiks-2048/"
 code = "https://github.com/Kshitij-Banerjee/Cubiks-2048/"
 
 [integration]
-yunohost = ">= 11.1.16"
+yunohost = ">= 11.2"
 architectures = "all"
 multi_instance = true
 ldap = false
